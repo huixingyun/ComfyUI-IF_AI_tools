@@ -13,7 +13,7 @@ import re
 import comfy.model_management as mm
 from .transformers_api import TransformersModelManager
 from torchvision.transforms import functional as TF
-from supervision.detection.lmm import from_florence_2
+from supervision.detection.vlm import from_florence_2
 from json import JSONEncoder
 from typing import Tuple, Optional, List, Union
 import folder_paths
